@@ -194,12 +194,18 @@ div.lesson-three-task-eleven input::placeholder {
 
 /* Завдання №12. Додайте "➤" перед кожним елементом списку;
   Використовуйте селектора псевдоелемента ”попереду” */
+div.lesson-three-task-twelve li {
+  background: white;
+}
 div.lesson-three-task-twelve li::before {
   content: '➤';
 }
 
 /* Завдання №13. Додайте "➤" після кожного елемента списку;
   Використовуйте селектора псевдоелемента ”після” */
+div.lesson-three-task-thirteen li {
+  background: white;
+}
 div.lesson-three-task-thirteen li::after {
   content: '➤';
 }
